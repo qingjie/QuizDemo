@@ -30,9 +30,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Questions = [Question(Question: "Q0", Answers: ["A0","B0","C0","D0"], Answer: 0),
-        Question(Question: "Q1", Answers: ["A1","B1","C1","D1"], Answer: 1),
-        Question(Question: "Q2", Answers: ["A2","B2","C2","D2"], Answer: 2),
-        Question(Question: "Q3", Answers: ["A3","B3","C3","D3"], Answer: 3)]
+        Question(Question: "Q1?", Answers: ["A1","B1","C1","D1"], Answer: 1),
+        Question(Question: "Q2?", Answers: ["A2","B2","C2","D2"], Answer: 2),
+        Question(Question: "Q3?", Answers: ["A3","B3","C3","D3"], Answer: 3)]
         pickQuesion()
     }
 
